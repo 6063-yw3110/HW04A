@@ -1,60 +1,33 @@
-# p5.js Template
+*1*
+I have actually severall ideas at first but after I tried to consider achieve these in coding, I gave up since I found I had no clue to write these
 
-This is a README file that can be used to describe and document your assignment.
+![ideas.jpg](https://imgpile.com/images/Df2g01.jpg)
+so I even search tutorials for my earth moon idea but just hard to understand..so i gave up
+![tutorial.png](https://imgpile.com/images/DfAlKL.png)
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+Then it occurred to me what it would be like to show my clock in the middle, with some random sized and colored balls appearing next to it as the seconds increased, so I probably thought about some drafts, and I thought it might work well. I also searched some new functions that I want my hours 
+shows as 00 00 00 in this format.
 
----
----
+![my idea.jpg](https://imgpile.com/images/DfBqck.jpg)
+![I learnt new thing!.png](https://imgpile.com/images/DfQfZl.png)
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+*2*
+At first I always had trouble figuring out how to set up the little balls to appear over time（as the second increase). I read some tutorials and learned how to turn on the time, but simply making the blob appear would be boring. I think it's more important to make the ball change with the framing of the time! Then I NOTICE I should add framerate(1) so refereshing every one second.
 
-**bold text**
+I learnt "return" that if i want a 000000 format.
 
-*italicized text*
+the first version
+![1.png](https://imgpile.com/images/Dfpxvl.png)
+not that happy with this, think it is not designed enough(as a designer I'm very strict with typefaces lol)..so I feel like I need to change the text font, I think I need a mono font better fits a "clock" like font. BUT I tried but still don't understand how to get the URL from my typefaces
+if I want my own typefaces displayed.
 
-~~strikethrough text~~
+second version
+so i just pulled up another typeface and make it fullscreen. I used to have : : : to separeted the hrs, mins and secs but I still want it to look 
+nicer, so I removed : and add a + at the front. 
+![2.png](https://imgpile.com/images/DfeGAi.png)
 
-Ordered List:
-1. First item
-2. Second item
-3. Third item
+but still not satisfied, so i make my text smaller and move it at the bottom, this is the final version
 
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
+*I NOTICED THAT textAlign is so important.make life easier
 
 
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
