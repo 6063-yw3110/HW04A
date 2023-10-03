@@ -30,4 +30,5 @@ but still not satisfied, so i make my text smaller and move it at the bottom, th
 
 *I NOTICED THAT textAlign is so important.make life easier
 
-
+*But I noticed that as I leave the window than go back, the balls does not running itself. it will only run when i am ON the page
+so I may want to learn a new tool to let the ball accumalte itself even I am not 'on' that screen
